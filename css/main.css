@@ -24,3 +24,16 @@ main {
 div .row {
     margin-right: 10px;
 }
+.col {
+    margin-left: 20px;
+}
+.col2 {
+    margin-right: 30%;
+    margin-top: 5px;
+}
+.row {
+    margin-top: 5%;
+}
+.h3-col2 {
+    font: italic bold 26px arial, sans-serif
+}
