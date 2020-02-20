@@ -20,7 +20,7 @@
     function showProfile(user) {
         profile.innerHTML = `
         <div class="row mt-3">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="${user.avatar_url}"/>
                     <ul>
