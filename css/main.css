@@ -38,11 +38,10 @@ body {
 }
 .cont ul li{
     float: right;
-    display: inline-block;
+    display: block;
     list-style: none;
     color: black;
     margin-left: 25px;
-    text-align: center;
     
 }
 .cont ul li a{
@@ -50,7 +49,6 @@ body {
     text-decoration: none;
     font-size: 20px;
     text-transform: capitalize;
-    text-align: center;
 }
 .cont ul li:hover {
     border-bottom: 2px solid peru;
@@ -59,5 +57,5 @@ body {
     color: peru;
 }
 .h3-col2 {
-    font: italic bold 26px arial, sans-serif
+    font: italic bold 26px arial, sans-serif;
 }

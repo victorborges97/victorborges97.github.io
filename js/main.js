@@ -20,7 +20,7 @@
     function showProfile(user) {
         profile.innerHTML = `
         <div class="row mt-3">
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="${user.avatar_url}"/>
                     <ul>
@@ -47,8 +47,8 @@
             output += `
             <div class="card card-body-mb-2">
                 <div class="row">
-                    <div class="col-md-6"><a href="${repo.html_url}" target="_black">${repo.name}</a></div>
-                    <div class="col-md-6">
+                    <div class="col-md-8"><a href="${repo.html_url}" target="_black">${repo.name}</a></div>
+                    <div class="col-md-8">
                         <span class="badge badge-primary">Starts: ${repo.stargazers_count}</span>
                         <span class="badge badge-primary">Watch: ${repo.watchers_count}</span>
                         <span class="badge badge-primary">Forks: ${repo.forks_count}</span>
