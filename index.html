@@ -4,48 +4,62 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/flexbox.css">
+		<link rel="stylesheet" type="text/css" href="./src/css/main.css">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<title>Portifolio</title>
+		<title>Portfólio</title>
 	</head>
 	<body>
-		<header class="menu-principal">
-			<main class="container">
-				<div class="menu">
-					<div class="logo">
-						<a href="https://victorborges97.github.io/" target="_blank"><img class="logo1" src="img/LOGO50.png"/></a>
-					</div>
-					<div class="cont">
+		<header>
+			<div class="container">
+				<div> <!--Div Logo-->
+					<a href="https://victorborges97.github.io/" target="_blank"><img class="logo1" src="./src/img/LOGO50.png"/></a>
+				</div><!--Fecha Div Logo-->
+				<div class="menu-section">
+					<div class="menu-toggle">
+						<div class="one"></div>
+						<div class="two"></div>
+						<div class="three"></div>
+					</div><!--Fecha Div menu-toggle-->
+					<nav>
 						<ul>
-							<li><a class="contato" href="#">contato</a></li>
-							<li><a class="portifolio" href="#">portifolio</a></li>
-							<li><a class="home" href="#">home</a></li>
+							<li>
+								<a class="home" href="#">HOME</a>
+							</li>
+							<li>
+								<a class="contato" href="#">CONTATO</a>
+							</li>
+							<li>
+								<a class="portfolio" href="#">PORTFÓLIO</a>
+							</li>
 						</ul>
-					</div>
-				</div>
-			</main>
+					</nav>
+				</div><!--Fecha Div menu-section-->
+			</div>
 		</header>
-		<main class="container">
-			<div class="fto">
-					<a href="https://github.com/victorborges97" target="_blank"><img class="fto" src="https://avatars1.githubusercontent.com/u/47835782?s=400&u=3c69157e2b492c8ee40466ea0066f8f8df87b4db&v=4"></a>
+		<section class="gitpessoal">
+			<div class="container">
+				<div class="fto">
+						<a href="https://github.com/victorborges97" target="_blank"><img class="fto" src="https://avatars1.githubusercontent.com/u/47835782?s=400&u=3c69157e2b492c8ee40466ea0066f8f8df87b4db&v=4"></a>
+				</div>
+				<div>
+					<h3 class="h3">João Victor Dutra de Oliveira borges</h3>
+					<p>Sobre:</p>
+					<p class="p">Sou estudante de Sistema de Informação ! Na UniRedentor.</p>
+				</div>
+				<br/>
+				<div class="container" >
+					<p class="lead">
+						Digite seu usuários para lhe mostra seu repositorios do Github:
+					</p>
+					<input id="search" type="text" class="form-control" required>
+					<div id="profile"></div>
+				</div>	
+				<br/>
 			</div>
-			<div>
-				<h3 class="h3">João Victor Dutra de Oliveira borges</h3>
-				<p>Sobre:</p>
-				<p class="p">Sou estudante de Sistema de Informação ! Na UniRedentor.</p>
-			</div>
-			<br/>
-			<div class="container" >
-				<p class="lead">
-					Digite seu usuários para lhe mostra seu repositorios do Github:
-				</p>
-				<input id="search" type="text" class="form-control" required>
-				<div id="profile"></div>
-			</div>	
-			<br/>
-		</main>
+		</section>
+
+
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -53,5 +67,5 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		
 	</body>
-	<script src="js/main.js"></script>
+	<script src="./src/js/main.js"></script>
 </html>
