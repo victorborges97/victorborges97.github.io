@@ -1,0 +1,21 @@
+.barra{
+    background-color: lightgray;
+
+}
+.menu{
+    justify-items: center;
+    float: right;
+}
+.image{
+    width: 100px;
+}
+.fto{
+    width: 250px;
+}
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 800px;
+}
+.caixadetexto1{
+    
+}

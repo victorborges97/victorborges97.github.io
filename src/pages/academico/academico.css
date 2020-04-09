@@ -1,0 +1,11 @@
+.barra{
+    background-color: lightgray;
+
+}
+.menu{
+    justify-items: center;
+    float: right;
+}
+.image{
+    width: 100px;
+}

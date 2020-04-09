@@ -19,24 +19,27 @@
 
     function showProfile(user) {
         profile.innerHTML = `
-        <div class="row mt-3">
-            <div class="col-md-8">
+        <div class="" style="justify-items: center;">
+            
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="${user.avatar_url}"/>
-                    <ul>
-                        <li class="list-group-item">Nome: <span class="badge">${user.name}</span></li>
-                        <li class="list-group-item">Repositórios: <span class="badge">${user.public_repos}</span></li>
-                        <li class="list-group-item">Seguidores: <span class="badge">${user.followers}</span></li>
-                        <li class="list-group-item">Seguindo: <span class="badge">${user.following}</span></li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="${user.html_url}" target="_blank" class="btn btn-warning btn-block">Ver perfil</a>
+                    <div>
+                        <img class="card-img-top" src="${user.avatar_url}"/>
+                        <ul>
+                            <li class="list-group-item">Nome: <span class="badge">${user.name}</span></li>
+                            <li class="list-group-item">Repositórios: <span class="badge">${user.public_repos}</span></li>
+                            <li class="list-group-item">Seguidores: <span class="badge">${user.followers}</span></li>
+                            <li class="list-group-item">Seguindo: <span class="badge">${user.following}</span></li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="${user.html_url}" target="_blank" class="btn btn-warning btn-block">Ver perfil</a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="repos"></div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-8">
-                <div id="repos"></div>
-            </div>
+            
+            
         </div>`;
     }
 
