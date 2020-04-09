@@ -4,8 +4,8 @@
     width: 100%;
 }
 .menu{
-    justify-items: center;
-    float: right;
+    position: absolute;
+    right: 0;
 }
 .image{
     width: 100px;
@@ -16,7 +16,4 @@
 .container{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 800px;
-}
-.caixadetexto1{
-    
 }
