@@ -1,6 +1,7 @@
 .barra{
     background-color: lightgray;
-
+    padding: 0;
+    width: 100%;
 }
 .menu{
     justify-items: center;
