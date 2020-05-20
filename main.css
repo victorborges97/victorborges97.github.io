@@ -1,19 +1,12 @@
-.barra{
-    background-color: lightgray;
-    padding: 0;
-    width: 100%;
+/*Formatações padrão */
+*{
+	margin: 0;
+	padding: 0;
 }
-.menu{
-    position: absolute;
-    right: 0;
+.container {	
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    width: 80%;
 }
-.image{
-    width: 100px;
-}
-.fto{
-    width: 250px;
-}
-.container{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 800px;
+.menu {
+    background-color: blueviolet;
 }
