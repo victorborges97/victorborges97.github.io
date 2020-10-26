@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: ${(props) => (props.background ? "#097deb" : "transparent")};
+  background: ${(props) => (props.background ? "#282c34" : "transparent")};
   width: 100%;
   position: sticky;
   top: 0;
