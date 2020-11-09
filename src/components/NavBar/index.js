@@ -21,7 +21,7 @@ const NavBar = () => {
         <Logo>João Victor Borges</Logo>
         <Nav>
           <Links className="menu">
-            <a href="#home">
+            <a href="https://joaovictorborges.dev.br/">
               <HyperLink>Home</HyperLink>
             </a>
           </Links>
