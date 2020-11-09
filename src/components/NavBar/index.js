@@ -18,7 +18,9 @@ const NavBar = () => {
   return (
     <Container background={NavBar}>
       <Wrapper>
-        <Logo>João Victor Borges</Logo>
+        <a href="https://joaovictorborges.dev.br/">
+          <Logo>João Victor Borges</Logo>
+        </a>
         <Nav>
           <Links className="menu">
             <a href="https://joaovictorborges.dev.br/">
