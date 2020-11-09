@@ -21,7 +21,7 @@ export const Nav = styled.ul`
   display: flex;
 `;
 
-export const Logo = styled.h3`
+export const Logo = styled.a`
   font-size: 20px;
   color: #fff;
   font-weight: 600;
