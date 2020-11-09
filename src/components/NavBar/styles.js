@@ -27,6 +27,7 @@ export const Logo = styled.h3`
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
 
   &:hover {
     color: #097deb;
