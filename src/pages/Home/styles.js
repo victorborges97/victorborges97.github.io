@@ -41,7 +41,7 @@ export const TextoInitial = styled.h1`
   }
 
   span:nth-child(1) {
-    background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+    background-image: linear-gradient(90deg, #4b59f7, #00dfd8);
   }
   span:nth-child(2) {
     background-image: linear-gradient(90deg, #7928ca, #ff0080);
