@@ -1,12 +1,13 @@
 import React from "react";
+import SectionInfo from "../../components/SectionInfo/index";
 
 import { Section } from "./styles";
 
 const Sobre = () => {
   return (
-    <Section id="sobre">
+    <SectionInfo id="sobre">
       <h2>Sobre</h2>
-    </Section>
+    </SectionInfo>
   );
 };
 

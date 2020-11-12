@@ -42,17 +42,17 @@ const NavBar = () => {
         </MobileIcon>
         <NavMenu Click={Click} hover={NavBar}>
           <NavItem>
-            <NavLinks to="#home" hover={NavBar}>
+            <NavLinks to="/" hover={NavBar}>
               Home
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="#sobre" hover={NavBar}>
+            <NavLinks to="/sobre" hover={NavBar}>
               Sobre
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="#portifolio" hover={NavBar}>
+            <NavLinks to="/portfolio" hover={NavBar}>
               Portfólio
             </NavLinks>
           </NavItem>

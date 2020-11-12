@@ -3,22 +3,22 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import GlobalStyles from "./styles/GlobalStyles";
-import Layout, { Wrapper } from "./components/Layout";
+import Layout from "./components/Layout";
 import NavBar from "./components/NavBar";
-import Home from "./components/Home";
-import Sobre from "./components/Sobre";
-import Portifolio from "./components/Portifolio";
+import Home from "./pages/Home";
+import Sobre from "./pages/Sobre";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
     <Router>
       <Layout>
         <NavBar />
-        <Wrapper>
-          <Home />
-          <Sobre />
-          <Portifolio />
-        </Wrapper>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/sobre" component={Sobre} />
+          <Route path="/portfolio" component={Portfolio} />
+        </Switch>
       </Layout>
       <GlobalStyles />
     </Router>
