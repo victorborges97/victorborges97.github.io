@@ -27,6 +27,7 @@ export const TextoInitial = styled.h1`
   font-size: 7rem;
   line-height: 7rem;
   letter-spacing: -0.5rem;
+  transition: all 0.2s;
 
   span {
     filter: brightness(0) invert(1);
@@ -49,6 +50,14 @@ export const TextoInitial = styled.h1`
   span:nth-child(3) {
     background-image: linear-gradient(90deg, #fe8802, #e6326c);
     animation-delay: 6.66s;
+  }
+
+  @media screen and (max-width: 960px) {
+    font-size: 5rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 3.5rem;
   }
 `;
 
