@@ -1,12 +1,12 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { Section } from "./styles";
 
 const Portifolio = () => {
   return (
-    <Container id="portifolio">
+    <Section id="portifolio">
       <h2>Portifólio</h2>
-    </Container>
+    </Section>
   );
 };
 

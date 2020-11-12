@@ -34,7 +34,7 @@ const NavBar = () => {
     <Nav background={NavBar}>
       <NavBarContainer>
         <NavLogo to="/" hover={NavBar}>
-          <NavIcon />
+          <NavIcon hover={NavBar} />
           João Victor Borges
         </NavLogo>
         <MobileIcon onClick={handleClickMenuMobile} hover={NavBar}>

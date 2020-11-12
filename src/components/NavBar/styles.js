@@ -28,9 +28,10 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
+  font-weight: bold;
 
   &:hover {
     color: ${(props) => (props.hover ? "#24292e" : "#4b59f7")};
@@ -39,6 +40,7 @@ export const NavLogo = styled(Link)`
 
 export const NavIcon = styled(FaCode)`
   margin-right: 0.5rem;
+  color: ${(props) => (props.hover ? "#24292e" : "#4b59f7")};
 `;
 
 export const MobileIcon = styled.div`
