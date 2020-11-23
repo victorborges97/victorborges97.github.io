@@ -8,9 +8,9 @@ const Home = () => {
     <SectionInfo id="home">
       <SectionHome>
         <TextoInitial>
-          <span>STUDENT</span>
-          <span>AND</span>
           <span>DEVELOPER</span>
+          <span>WEB</span>
+          <span>MOBILE</span>
         </TextoInitial>
       </SectionHome>
     </SectionInfo>
