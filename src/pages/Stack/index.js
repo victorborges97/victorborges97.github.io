@@ -1,7 +1,7 @@
 import React from "react";
 import SectionInfo from "../../components/SectionInfo/index";
 
-import { Section, TituloPage, Lista, Row, Foto, Item, Titulo } from "./styles";
+import { Section, TituloPage, Lista, Row, Foto, Item, Titulo, Column } from "./styles";
 
 const Stack = () => {
   return (
@@ -11,63 +11,65 @@ const Stack = () => {
 
         <Lista>
           <Row>
-            <Item>
-              <Foto
-                src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/react.png"}
-                rotate
-              />
-              <Titulo>
-                ReactJS
-              </Titulo>
-            </Item>
 
-            <Item>
-              <Foto
-                src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/react.png"}
-                rotate
-              />
-              <Titulo>
-                React Native
+            <Column>
+              <Item>
+                <Foto
+                  src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/react.png"}
+                  rotate
+                />
+                <Titulo>
+                  ReactJS
               </Titulo>
-            </Item>
+              </Item>
 
-            <Item>
-              <Foto
-                src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/icons8-nodejs-144.png"}
-              />
-              <Titulo>
-                NodeJS
+              <Item>
+                <Foto
+                  src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/react.png"}
+                  rotate
+                />
+                <Titulo>
+                  React Native
               </Titulo>
-            </Item>
-          </Row>
+              </Item>
 
-          <Row>
-            <Item>
-              <Foto
-                src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/icons8-javascript-144.png"}
-              />
-              <Titulo>
-                Javascritp
+              <Item>
+                <Foto
+                  src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/icons8-nodejs-144.png"}
+                />
+                <Titulo>
+                  NodeJS
               </Titulo>
-            </Item>
+              </Item>
+            </Column>
+            <Column>
+              <Item>
+                <Foto
+                  src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/icons8-javascript-144.png"}
+                />
+                <Titulo>
+                  Javascritp
+              </Titulo>
+              </Item>
 
-            <Item>
-              <Foto
-                src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/icons8-html-5-144.png"}
-              />
-              <Titulo>
-                HTML
+              <Item>
+                <Foto
+                  src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/icons8-html-5-144.png"}
+                />
+                <Titulo>
+                  HTML
               </Titulo>
-            </Item>
+              </Item>
 
-            <Item>
-              <Foto
-                src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/icons8-css3-144.png"}
-              />
-              <Titulo>
-                CSS
+              <Item>
+                <Foto
+                  src={"https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/img/icons8-css3-144.png"}
+                />
+                <Titulo>
+                  CSS
               </Titulo>
-            </Item>
+              </Item>
+            </Column>
           </Row>
 
         </Lista>

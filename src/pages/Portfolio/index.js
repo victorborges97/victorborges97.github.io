@@ -1,12 +1,14 @@
 import React from "react";
 import SectionInfo from "../../components/SectionInfo/index";
 
-import { Section } from "./styles";
+import { Section, TituloPage } from "./styles";
 
 const Portfolio = () => {
   return (
     <SectionInfo id="home">
-      <h2>Portfolio</h2>
+      <Section>
+        <TituloPage>Meus Projetos</TituloPage>
+      </Section>
     </SectionInfo>
   );
 };

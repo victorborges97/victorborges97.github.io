@@ -12,7 +12,7 @@ const colorCircle = keyframes`
 export const SectionHome = styled.div`
   justify-content: center;
   display: flex;
-  height: 85vh;
+  height: 80vh;
   align-items: center;
   flex-direction: column;
   /* background: #9878; */

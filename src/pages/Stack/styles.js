@@ -26,7 +26,7 @@ const shakeImg = keyframes`
 `
 
 export const Section = styled(Container)`
-  height: 100%;
+  height: 80vh;
   background: ${({ lightBg }) => (lightBg && "#fff")};
   color: ${({ lightBg }) => (lightBg && "#232323")};
   padding-top: 60px;
@@ -51,13 +51,20 @@ export const Lista = styled.div`
 `;
 
 export const Row = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 `
 
 export const Item = styled.li`  
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   // padding: 10px 20px; 
   // background-color: #282828;
@@ -88,4 +95,8 @@ export const Foto = styled.img`
   }
 `;
 
-// export const Container = styled.div``;
+export const Column = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+`;
