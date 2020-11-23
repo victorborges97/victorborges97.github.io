@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { ContainerFooter, Text, Link } from './styles';
+import { ContainerFooter, Footer, Text, Link } from './styles';
 
 const Rodape = ({ lightBg }) => {
   return (
     <ContainerFooter>
-      <footer>
+      <Footer>
         <Text lightBg={lightBg}>© All Right Reserved By <Link href={"https://github.com/victorborges97"}>João Victor Borges</Link></Text>
-      </footer>
+      </Footer>
     </ContainerFooter>
   )
 }

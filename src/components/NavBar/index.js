@@ -18,7 +18,7 @@ const NavBar = () => {
 
   //Função para ver o quanto rolou o scroll do mouse assim posso muda a cor conforme o tamanho que defini
   const changeBackground = () => {
-    if (window.scrollY >= 350) {
+    if (window.scrollY >= 200) {
       setNavBar(true);
     } else {
       setNavBar(false);
@@ -42,22 +42,22 @@ const NavBar = () => {
         </MobileIcon>
         <NavMenu Click={Click} hover={NavBar}>
           <NavItem>
-            <NavLinks to="/" hover={NavBar}>
+            <NavLinks to="/" onClick={handleClickMenuMobile} hover={NavBar}>
               Home
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/sobre" hover={NavBar}>
+            <NavLinks to="/sobre" onClick={handleClickMenuMobile} hover={NavBar}>
               Sobre
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/stack" hover={NavBar}>
+            <NavLinks to="/stack" onClick={handleClickMenuMobile} hover={NavBar}>
               Stack
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/portfolio" hover={NavBar}>
+            <NavLinks to="/portfolio" onClick={handleClickMenuMobile} hover={NavBar}>
               Portfólio
             </NavLinks>
           </NavItem>

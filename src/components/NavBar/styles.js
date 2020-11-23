@@ -5,7 +5,7 @@ import { Container } from "../../styles/GlobalStyles";
 
 export const Nav = styled.nav`
   background: ${(props) => (props.background ? "#4b59f7" : "transparent")};
-  height: 80px;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,9 +71,9 @@ export const NavMenu = styled.ul`
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: ${({ Click }) => (Click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;

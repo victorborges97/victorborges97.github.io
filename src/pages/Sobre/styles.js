@@ -6,6 +6,7 @@ export const Section = styled(Container)`
   background: ${({ lightBg }) => (lightBg && "#fff")};
   color: ${({ lightBg }) => (lightBg && "#232323")};
   padding-top: 60px;
+  
 
   transition: all 0.4s ease;
 `;
@@ -19,12 +20,12 @@ export const SobreContain = styled.div`
   display: flex;
   flex-direction: row;
   
-  padding: 50px 0px;
+  padding-top: 50px;
 
   @media screen and (max-width: 960px) {
     flex-direction: column;
     align-items: center;
-    padding: 50px 0px;
+    
     transition: all 0.5s ease;
   }
 `;
