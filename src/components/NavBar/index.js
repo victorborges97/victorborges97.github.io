@@ -52,6 +52,11 @@ const NavBar = () => {
             </NavLinks>
           </NavItem>
           <NavItem>
+            <NavLinks to="/stack" hover={NavBar}>
+              Stack
+            </NavLinks>
+          </NavItem>
+          <NavItem>
             <NavLinks to="/portfolio" hover={NavBar}>
               Portfólio
             </NavLinks>
