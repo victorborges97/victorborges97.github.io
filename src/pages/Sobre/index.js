@@ -5,7 +5,7 @@ import { Section, TituloPage, SobreContain, Foto, SobreTexto, SobreTitulo, Sobre
 
 const Sobre = () => {
   return (
-    <SectionInfo id="sobre">
+    <SectionInfo id="sobre" menuEfooter >
       <Section>
         <TituloPage>Sobre mim</TituloPage>
 

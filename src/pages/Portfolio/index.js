@@ -5,7 +5,7 @@ import { Section, TituloPage } from "./styles";
 
 const Portfolio = () => {
   return (
-    <SectionInfo id="home">
+    <SectionInfo id="home" menuEfooter >
       <Section>
         <TituloPage>Meus Projetos</TituloPage>
       </Section>

@@ -5,7 +5,7 @@ import { Section, TituloPage, Lista, Row, Foto, Item, Titulo, Column } from "./s
 
 const Stack = () => {
   return (
-    <SectionInfo id="stack">
+    <SectionInfo id="stack" menuEfooter >
       <Section>
         <TituloPage>Minha Stack</TituloPage>
 
