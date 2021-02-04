@@ -1,10 +1,10 @@
 import React from "react";
 
-import { Section, Info } from "./styles";
+import { Info } from "./styles";
 
-const SectionInfo = ({ lightBg, children, id }) => {
+const SectionInfo = ({ lightBg, children, id, heigth }) => {
   return (
-    <Info lightBg={lightBg} id={`SectionInfo-${id}`} >
+    <Info heigth={heigth} lightBg={lightBg} id={`SectionInfo-${id}`} >
       {children}
     </Info>
   );
