@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import { Container } from "../../styles/GlobalStyles";
 
-export const Section = styled(Container)`
-  height: 80vh;
+export const Section = styled.div`
   background: ${({ lightBg }) => (lightBg && "#fff")};
   color: ${({ lightBg }) => (lightBg && "#232323")};
-  padding-top: 60px;
+  padding-top: 15vh;
+  width: 100%;
   
   transition: all 0.4s ease;
 `;
@@ -16,6 +15,7 @@ export const TituloPage = styled.h1`
 `;
 
 export const Projets = styled.div`
+  margin-top: 30px;  
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -24,12 +24,12 @@ export const Projets = styled.div`
 `;
 
 export const Projet = styled.div`
-  height: 150px;
+  height: 250px;
   min-height: 110px;
-  max-height: 150px;
-  width: 300px;
+  max-height: 250px;
+  width: 450px;
   min-width: 200px;
-  max-width: 300px;
+  max-width: 450px;
   background-image: ${({ img }) => img !== "" && img};
   background: ${({ img }) => img ? null : "#323265"};
   margin: 10px;

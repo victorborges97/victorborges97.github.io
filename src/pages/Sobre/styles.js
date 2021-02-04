@@ -4,8 +4,7 @@ export const Section = styled.div`
   height: 100%;
   background: ${({ lightBg }) => (lightBg && "#fff")};
   color: ${({ lightBg }) => (lightBg && "#232323")};
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 15vh;
   transition: all .6s ease-in-out;
   -webkit-transition: all .6s ease-in-out;
   width: 100%;
@@ -35,17 +34,12 @@ export const Foto = styled.img`
   height: 100%;
   border-radius: 50%!important;
   box-shadow: 0 0 0 1px #f8f8f8;
-
+  margin-bottom: 10px;
+  margin-top: 10px;
   transition: all 0.5s ease;
 
   @media screen and (max-width: 960px) {
     width: 150px;
-
-    transition: all 0.5s ease;
-  }
-
-  @media screen and (max-width: 550px) {
-    width: 80px;
 
     transition: all 0.5s ease;
   }
@@ -66,6 +60,7 @@ export const SobreTitulo = styled.h4`
 
 export const SobreP = styled.p`
   margin: 0;
+  text-align: justify;
   line-height: 1.8rem;
   padding: 20px 0px;
   @media screen and (max-width: 960px) {

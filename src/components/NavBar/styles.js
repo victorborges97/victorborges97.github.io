@@ -10,7 +10,8 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 15;
   /* opacity: 0; */
@@ -22,7 +23,6 @@ export const NavBarContainer = styled(Container)`
   justify-content: space-between;
   display: flex;
   height: 100%;
-  z-index: 15;
 `;
 
 export const NavLogo = styled(Link)`
@@ -34,9 +34,14 @@ export const NavLogo = styled(Link)`
   display: flex;
   align-items: center;
   font-weight: bold;
+  height: 100%;
 
   &:hover {
     color: ${(props) => (props.hover ? "#24292e" : "#4b59f7")};
+  }
+
+  @media screen and (max-width: 960px){
+    padding-left: 20px;
   }
 `;
 
@@ -107,6 +112,7 @@ export const NavLinks = styled(Link)`
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  cursor: pointer;
 
   @media screen and (max-width: 960px) {
     text-align: center;

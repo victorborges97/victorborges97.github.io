@@ -26,11 +26,10 @@ const shakeImg = keyframes`
 `
 
 export const Section = styled(Container)`
-  height: 80vh;
+  padding-top: 15vh;
+  width: 100%;
   background: ${({ lightBg }) => (lightBg && "#fff")};
   color: ${({ lightBg }) => (lightBg && "#232323")};
-  /* padding-top: 60px; */
-
   transition: all 0.4s ease;
 `;
 
@@ -40,6 +39,8 @@ export const TituloPage = styled.h2`
 `;
 
 export const Lista = styled.div`
+  padding-top: 60px;
+
   display: flex;  
   align-items: center;
   display: flex;

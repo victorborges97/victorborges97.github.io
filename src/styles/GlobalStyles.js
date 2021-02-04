@@ -31,11 +31,11 @@ export const Container = styled.div`
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
 
   @media screen and (max-width: 991px) {
-    padding-right: 30px;
-    padding-left: 30px;
+    /* padding-right: 30px;
+    padding-left: 30px; */
   }
 `;

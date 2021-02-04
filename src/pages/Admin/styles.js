@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Main = styled.div`
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@ export const Main = styled.div`
 `
 
 export const MainAdmin = styled.div`
-  height: 90%;
+  /* height: 90%; */
   width: 100%;
   min-width: 300px;
   max-width: 380px;
@@ -33,8 +33,8 @@ MainAdmin.Header = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: .75rem;
-  height: 8rem;
+  /* height: 8rem; */
+  padding: 20px;
   width: 100%;
 `
 
@@ -51,7 +51,7 @@ MainAdmin.Body = styled.div`
   width: 100%;
 `
 
-MainAdmin.Form = styled.div`
+MainAdmin.Form = styled.form`
   padding: .5rem;
   width: 100%;
   margin-top: 15px;

@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import SectionInfo from "../../components/SectionInfo/index";
 
 import { MainAdmin, Main } from "./styles";
 
 const Admin = () => {
+  const [email, setEmail] = useState("")
+  const [pass, setPass] = useState("")
+
   return (
     <SectionInfo id="admin" menuEfooter={false} >
 
@@ -17,11 +20,27 @@ const Admin = () => {
             <MainAdmin.Form >
               <MainAdmin.FormGroup>
                 <MainAdmin.Label forHtml="email" >Email</MainAdmin.Label>
-                <MainAdmin.Input name="email" placeholder="Enter email" required="" id="email" type="email" value="admin@themesbrand.com" />
+                <MainAdmin.Input
+                  name="email"
+                  placeholder="Seu email"
+                  required=""
+                  id="email"
+                  type="email"
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
+                />
               </MainAdmin.FormGroup>
               <MainAdmin.FormGroup>
                 <MainAdmin.Label forHtml="password" >Senha</MainAdmin.Label>
-                <MainAdmin.Input name="password" required="" placeholder="Coloque sua senha" id="password" type="password" value="123456" />
+                <MainAdmin.Input
+                  name="password"
+                  required=""
+                  placeholder="Sua senha"
+                  id="password"
+                  type="password"
+                  value={pass}
+                  onChange={e => setPass(e.target.value)}
+                />
               </MainAdmin.FormGroup>
               <MainAdmin.CustonControl>
                 <MainAdmin.InputCheckbox type="checkbox" id="customControlInline" />

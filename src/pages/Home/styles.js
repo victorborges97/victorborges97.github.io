@@ -12,7 +12,7 @@ const colorCircle = keyframes`
 export const SectionHome = styled.div`
   justify-content: center;
   display: flex;
-  height: 90vh;
+  height: 100vh;
   /* height: 100%; */
   align-items: center;
   flex-direction: column;
@@ -29,7 +29,7 @@ export const TextoInitial = styled.h1`
 
   font-size: 7rem;
   line-height: 7rem;
-  letter-spacing: -0.5rem;
+  letter-spacing: 0.2rem;
   transition: all 0.2s;
 
   span {
@@ -64,16 +64,4 @@ export const TextoInitial = styled.h1`
   }
 `;
 
-// export const Container = styled.div``;
 
-// export const Container = styled.div``;
-
-// export const Container = styled.div``;
-
-// export const Container = styled.div``;
-
-// export const Container = styled.div``;
-
-// export const Container = styled.div``;
-
-// export const Container = styled.div``;
