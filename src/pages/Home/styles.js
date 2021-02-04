@@ -13,10 +13,14 @@ export const SectionHome = styled.div`
   justify-content: center;
   display: flex;
   height: 100vh;
-  /* height: 100%; */
   align-items: center;
   flex-direction: column;
-  /* background: #9878; */
+  padding: 10vw 0;
+
+  @media screen and (max-width: 960px) {
+    padding: 30vw 0;
+  }
+
 `;
 
 export const TextoInitial = styled.h1`
@@ -27,8 +31,8 @@ export const TextoInitial = styled.h1`
   text-align: center;
   flex: 1;
 
-  font-size: 7rem;
-  line-height: 7rem;
+  font-size: 9vw;
+  line-height: 9vw;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 
@@ -53,14 +57,6 @@ export const TextoInitial = styled.h1`
   span:nth-child(3) {
     background-image: linear-gradient(90deg, #fe8802, #e6326c);
     animation-delay: 6.66s;
-  }
-
-  @media screen and (max-width: 960px) {
-    font-size: 5rem;
-  }
-
-  @media screen and (max-width: 400px) {
-    font-size: 3.5rem;
   }
 `;
 
