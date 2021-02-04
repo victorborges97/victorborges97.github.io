@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Container } from "../../styles/GlobalStyles";
 
-export const ContainerFooter = styled(Container)`
+export const ContainerFooter = styled.div`
 `;
 
 export const Footer = styled.footer`
@@ -11,7 +11,8 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: center;
 
-  position: relative;
+  position: absolute;
+  bottom: 0;
 `
 
 export const Text = styled.p`

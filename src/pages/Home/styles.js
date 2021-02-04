@@ -12,7 +12,8 @@ const colorCircle = keyframes`
 export const SectionHome = styled.div`
   justify-content: center;
   display: flex;
-  height: 80vh;
+  height: 90vh;
+  /* height: 100%; */
   align-items: center;
   flex-direction: column;
   /* background: #9878; */
@@ -21,8 +22,10 @@ export const SectionHome = styled.div`
 export const TextoInitial = styled.h1`
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  flex: 1;
 
   font-size: 7rem;
   line-height: 7rem;

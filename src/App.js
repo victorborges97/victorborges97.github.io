@@ -4,22 +4,18 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import GlobalStyles from "./styles/GlobalStyles";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
-import Sobre from "./pages/Sobre";
-import Stack from "./pages/Stack";
-import Portfolio from "./pages/Portfolio";
 import Admin from "./pages/Admin";
+import pages from "./pages";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <Router>
       <Layout>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/sobre" component={Sobre} />
-          <Route path="/stack" component={Stack} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/" exact component={pages} />
           <Route path="/admin" component={Admin} />
+          <Route path="*" component={notFound} />
         </Switch>
       </Layout>
       <GlobalStyles />
@@ -28,3 +24,12 @@ function App() {
 }
 
 export default App;
+
+const notFound = () => {
+  return (
+    <>
+      <NavBar />
+      <h1 style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "80vh" }}>Pagina não encontrada!</h1>
+    </>
+  )
+}

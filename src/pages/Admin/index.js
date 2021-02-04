@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import SectionInfo from "../../components/SectionInfo/index";
 
 import { MainAdmin, Main } from "./styles";
@@ -32,10 +31,10 @@ const Admin = () => {
                 <MainAdmin.Button type="submit">Entrar</MainAdmin.Button>
               </MainAdmin.FormGroup>
               <MainAdmin.FormGroup top>
-                <Link href="/forgot-password">
+                <MainAdmin.Link to="/forgot-password">
                   <i className="mdi mdi-lock mr-1"></i>
                   Esqueceu sua senha?
-                </Link>
+                </MainAdmin.Link>
               </MainAdmin.FormGroup>
             </MainAdmin.Form>
           </MainAdmin.Body>

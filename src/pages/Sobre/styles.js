@@ -1,14 +1,14 @@
 import styled from "styled-components";
-import { Container } from "../../styles/GlobalStyles";
 
-export const Section = styled(Container)`
+export const Section = styled.div`
   height: 100%;
   background: ${({ lightBg }) => (lightBg && "#fff")};
   color: ${({ lightBg }) => (lightBg && "#232323")};
   padding-top: 60px;
-  
-
-  transition: all 0.4s ease;
+  padding-bottom: 60px;
+  transition: all .6s ease-in-out;
+  -webkit-transition: all .6s ease-in-out;
+  width: 100%;
 `;
 
 export const TituloPage = styled.h1`
@@ -25,7 +25,7 @@ export const SobreContain = styled.div`
   @media screen and (max-width: 960px) {
     flex-direction: column;
     align-items: center;
-    
+    padding-top: 10px;
     transition: all 0.5s ease;
   }
 `;
@@ -38,14 +38,14 @@ export const Foto = styled.img`
 
   transition: all 0.5s ease;
 
-  @media screen and (max-width: 460px) {
-    width: 280px;
+  @media screen and (max-width: 960px) {
+    width: 150px;
 
     transition: all 0.5s ease;
   }
 
-  @media screen and (max-width: 390px) {
-    width: 200px;
+  @media screen and (max-width: 550px) {
+    width: 80px;
 
     transition: all 0.5s ease;
   }
@@ -56,7 +56,7 @@ export const SobreTexto = styled.div`
   padding: 50px;
 
   @media screen and (max-width: 960px) {
-    padding: 50px 0px;
+    padding: 10px 0px;
   }
 `;
 
@@ -65,8 +65,12 @@ export const SobreTitulo = styled.h4`
 `;
 
 export const SobreP = styled.p`
-  line-height: 1.8;
+  margin: 0;
+  line-height: 1.8rem;
   padding: 20px 0px;
+  @media screen and (max-width: 960px) {
+    /* width: 150px; */
+    line-height: 1.5rem;
+    transition: all 0.5s ease;
+  }
 `;
-
-// export const Container = styled.div``;

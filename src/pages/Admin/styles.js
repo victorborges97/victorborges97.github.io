@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Main = styled.div`
@@ -12,37 +13,42 @@ export const Main = styled.div`
 export const MainAdmin = styled.div`
   height: 90%;
   width: 100%;
-  max-width: 50%;
+  min-width: 300px;
+  max-width: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 0;
-  background-color: #232323;
+  background-color: #9991;
   background-clip: border-box;
   border-radius: .75rem;
   box-shadow: 0 0 1.5rem rgb(18 38 63 / 3%);
+
+  @media screen and (max-width: 450px) {
+    /* max-width: none; */
+  }
 `
 
 MainAdmin.Header = styled.div`
-  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: .75rem;
-  height: 45px;
+  height: 8rem;
   width: 100%;
-  background-color: rgba(85,110,230,.25)!important;
 `
 
 MainAdmin.HeaderText = styled.div`
-  color: #556ee6!important;
+  font-size: 24px;
+  color: #FFF;
 `
 
 MainAdmin.Body = styled.div`
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
-  padding-top: 0!important;
+  padding-top: 1.25rem;
   width: 100%;
-
 `
 
 MainAdmin.Form = styled.div`
@@ -97,8 +103,8 @@ MainAdmin.Button = styled.button`
   cursor: pointer;
   width: 100%;
   color: #fff;
-  background-color: #556ee6;
-  border-color: #556ee6;
+  background-color: rgba(85,110,230,.25);
+  border-color: rgba(85,110,230,.25);
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
@@ -108,4 +114,8 @@ MainAdmin.Button = styled.button`
   line-height: 1.5;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+`
+
+MainAdmin.Link = styled(Link)`
+  color: #fff;
 `

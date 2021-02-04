@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FaCode } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { Container } from "../../styles/GlobalStyles";
 
 export const Nav = styled.nav`
@@ -9,10 +9,11 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 15;
+  /* opacity: 0; */
 
   transition: all 0.4s ease;
 `;
@@ -20,7 +21,8 @@ export const Nav = styled.nav`
 export const NavBarContainer = styled(Container)`
   justify-content: space-between;
   display: flex;
-  height: 80px ${Container};
+  height: 100%;
+  z-index: 15;
 `;
 
 export const NavLogo = styled(Link)`
@@ -28,7 +30,7 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -73,7 +75,7 @@ export const NavMenu = styled.ul`
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 70px;
+    top: 10vh;
     left: ${({ Click }) => (Click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;

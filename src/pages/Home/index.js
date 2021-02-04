@@ -5,7 +5,7 @@ import { TextoInitial, SectionHome } from "./styles";
 
 const Home = () => {
   return (
-    <SectionInfo id="home" menuEfooter >
+    <SectionInfo id="home" >
       <SectionHome>
         <TextoInitial>
           <span>DEVELOPER</span>

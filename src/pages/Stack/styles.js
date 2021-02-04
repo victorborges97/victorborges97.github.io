@@ -29,15 +29,12 @@ export const Section = styled(Container)`
   height: 80vh;
   background: ${({ lightBg }) => (lightBg && "#fff")};
   color: ${({ lightBg }) => (lightBg && "#232323")};
-  padding-top: 60px;
+  /* padding-top: 60px; */
 
   transition: all 0.4s ease;
-
-  z-index: 1;
-
 `;
 
-export const TituloPage = styled.h1`
+export const TituloPage = styled.h2`
   display: flex;
   justify-content: center;
 `;
@@ -47,7 +44,7 @@ export const Lista = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 80px auto;
+  margin: auto auto;
 `;
 
 export const Row = styled.div`

@@ -1,19 +1,11 @@
 import React from "react";
-import NavBar from "../NavBar";
-import Rodape from "../Rodape/Rodape";
 
 import { Section, Info } from "./styles";
 
-const SectionInfo = ({ lightBg, children, menuEfooter }) => {
+const SectionInfo = ({ lightBg, children, id }) => {
   return (
-    <Info lightBg={lightBg}>
-      { menuEfooter && menuEfooter !== false &&
-        <NavBar />
-      }
+    <Info lightBg={lightBg} id={`SectionInfo-${id}`} >
       <Section>{children}</Section>
-      { menuEfooter && menuEfooter !== false &&
-        <Rodape />
-      }
     </Info>
   );
 };

@@ -20,7 +20,7 @@ const Stack = () => {
                 />
                 <Titulo>
                   ReactJS
-              </Titulo>
+                </Titulo>
               </Item>
 
               <Item>

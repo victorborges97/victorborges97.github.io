@@ -33,7 +33,7 @@ const NavBar = () => {
   return (
     <Nav background={NavBar}>
       <NavBarContainer>
-        <NavLogo to="/" hover={NavBar}>
+        <NavLogo to="SectionInfo-home" smooth={true} duration={1000} hover={NavBar}>
           <NavIcon hover={NavBar} />
           João Victor Borges
         </NavLogo>
@@ -42,22 +42,17 @@ const NavBar = () => {
         </MobileIcon>
         <NavMenu Click={Click} hover={NavBar}>
           <NavItem>
-            <NavLinks to="/" onClick={handleClickMenuMobile} hover={NavBar}>
-              Home
-            </NavLinks>
-          </NavItem>
-          <NavItem>
-            <NavLinks to="/sobre" onClick={handleClickMenuMobile} hover={NavBar}>
+            <NavLinks to="SectionInfo-sobre" smooth={true} duration={1000} onClick={handleClickMenuMobile} hover={NavBar}>
               Sobre
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/stack" onClick={handleClickMenuMobile} hover={NavBar}>
+            <NavLinks to="SectionInfo-stack" smooth={true} duration={1000} onClick={handleClickMenuMobile} hover={NavBar}>
               Stack
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/portfolio" onClick={handleClickMenuMobile} hover={NavBar}>
+            <NavLinks to="SectionInfo-projetos" smooth={true} duration={1000} onClick={handleClickMenuMobile} hover={NavBar}>
               Portfólio
             </NavLinks>
           </NavItem>
