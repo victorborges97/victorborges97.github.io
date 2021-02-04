@@ -30,7 +30,10 @@ export const Projet = styled.div`
   width: 450px;
   min-width: 200px;
   max-width: 450px;
-  background-image: ${({ img }) => img !== "" && img};
+  background-image: url(${({ img }) => img !== "" && img});
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
   background: ${({ img }) => img ? null : "#323265"};
   margin: 10px;
 `;

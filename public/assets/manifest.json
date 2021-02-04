@@ -1,0 +1,15 @@
+{
+  "short_name": "João Victor Borges",
+  "name": "Portfólio de João Victor Borges",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#24292e",
+  "background_color": "#24292e"
+}

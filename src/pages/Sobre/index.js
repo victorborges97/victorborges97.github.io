@@ -16,12 +16,10 @@ const Sobre = () => {
           <SobreTexto>
             <SobreTitulo>Olá, sou o João Victor. Prazer em conhecê-lo!</SobreTitulo>
             <SobreP>
-              Sou desenvolvedor Full-Stack. Atualmente estudo
-              Sistemas   de Informação no Centro Universitario Redentor,
-              desenvolvimento web e mobile é uma paixão minha. Sigo fazendo diversos
-              cursos para fortalecer e expandir meu conhecimento, buscando a minha evolução
-              dia após dia para me tornar um profissional
-              reconhecido e confiavel no mercado!
+              Sou desenvolvedor Front-end e Mobile. Atualmente estou cursando Bacharel em
+              Sistemas de Informação no Centro Universitario Redentor,
+              desenvolvimento web e mobile é uma paixão minha. Sigo fazendo diversos cursos de aprimoramento profissional,
+              sempre buscando novos desafios e minha evolução dia após dia para me tornar um profissional reconhecido no mercado!
             </SobreP>
           </SobreTexto>
         </SobreContain>

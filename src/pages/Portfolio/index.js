@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <SectionInfo id="projetos" menuEfooter >
       <Section>
-        <TituloPage>Meus Projetos</TituloPage>
+        <TituloPage>Meu portfólio</TituloPage>
         <Projets>
           {
             db.porjetos.map(projet => {

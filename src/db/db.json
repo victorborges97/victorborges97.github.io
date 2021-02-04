@@ -11,16 +11,16 @@
     },
     {
       "id": 1,
-      "title": "NEAD Controle de Conteudo",
+      "title": "NEAD Controle de Conteúdo",
       "description": "Projeto reformulado para controle de conteudo postado no LMS",
       "link_github": "https://github.com/victorborges97/cead-react-web",
       "link_preview": "",
       "private": true,
-      "img": ""
+      "img": "/assets/nead.png"
     },
     {
       "id": 2,
-      "title": "Protifolio",
+      "title": "Portfólio",
       "description": "Primeiro projeto em ReactJS com Style-Components",
       "link_github": "https://github.com/victorborges97/victorborges97.github.io",
       "link_preview": "https://joaovictorborges.dev.br",
@@ -34,7 +34,7 @@
       "link_github": "https://github.com/victorborges97/Projeto-Web-2---Django-Blog",
       "link_preview": "https://blog-ney.herokuapp.com/",
       "private": false,
-      "img": ""
+      "img": "/assets/blog.png"
     },
     {
       "id": 4,
@@ -56,6 +56,15 @@
     },
     {
       "id": 6,
+      "title": "APP e Site para semana do NLW da Rocketseat",
+      "description": "Proffy - O projeto surgiu com a missão de trazer uma homenagem aos educadores do Brasil, através de uma plataforma que conecta alunos e professores de diversas matérias.",
+      "link_github": "https://github.com/victorborges97/NLW2-2020",
+      "link_preview": "https://proffy-borges.vercel.app/",
+      "private": false,
+      "img": "https://raw.githubusercontent.com/victorborges97/NLW2-2020/master/.github/gif-nlw-web.gif"
+    },
+    {
+      "id": 7,
       "title": "Site em HTML, CSS e Javascript",
       "description": "Projeto realizado na faculdade para aprender HTML, CSS e Javascript",
       "link_github": "https://github.com/victorborges97/barrigudo",
