@@ -20,7 +20,7 @@
     {
       "id": 1,
       "title": "NEAD Controle de Conteúdo",
-      "description": "Projeto reformulado para controle de conteudo postado no LMS",
+      "description": "Meu segundo projeto, que foi uma reformulação para controle de conteudo postado no LMS da UniRedentor",
       "links": [
         {
           "link": "https://github.com/victorborges97/cead-react-web",
@@ -32,12 +32,16 @@
         }
       ],
       "private": true,
-      "img": [{ "src": "/assets/nead.png" }]
+      "img": [
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/nead.png" },
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEAD2.png" },
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEAD3.png" }
+      ]
     },
     {
       "id": 2,
       "title": "Portfólio",
-      "description": "Primeiro projeto em ReactJS com Style-Components",
+      "description": "Meu primeiro projeto em ReactJS com Style-Components",
       "links": [
         {
           "link": "https://github.com/victorborges97/victorborges97.github.io",
@@ -66,7 +70,7 @@
         }
       ],
       "private": false,
-      "img": [{ "src": "/assets/blog.png" }]
+      "img": [{ "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/blog.png" }]
     },
     {
       "id": 4,
