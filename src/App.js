@@ -29,7 +29,9 @@ const notFound = () => {
   return (
     <>
       <NavBar />
-      <h1 style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "80vh" }}>Pagina não encontrada!</h1>
+      <h1 style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "80vh" }}>
+        Pagina não encontrada!
+      </h1>
     </>
   )
 }

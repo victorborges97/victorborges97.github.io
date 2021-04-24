@@ -4,73 +4,141 @@
       "id": 0,
       "title": "Garnet APP",
       "description": "",
-      "link_github": "https://github.com/victorborges97/garnet-teste",
-      "link_preview": "",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/garnet-teste",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
       "private": true,
-      "img": ""
+      "img": [{ "src": "" }]
     },
     {
       "id": 1,
       "title": "NEAD Controle de Conteúdo",
       "description": "Projeto reformulado para controle de conteudo postado no LMS",
-      "link_github": "https://github.com/victorborges97/cead-react-web",
-      "link_preview": "",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/cead-react-web",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
       "private": true,
-      "img": "/assets/nead.png"
+      "img": [{ "src": "/assets/nead.png" }]
     },
     {
       "id": 2,
       "title": "Portfólio",
       "description": "Primeiro projeto em ReactJS com Style-Components",
-      "link_github": "https://github.com/victorborges97/victorborges97.github.io",
-      "link_preview": "https://joaovictorborges.dev.br",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/victorborges97.github.io",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "https://joaovictorborges.dev.br",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
       "private": false,
-      "img": ""
+      "img": [{ "src": "" }]
     },
     {
       "id": 3,
       "title": "Blog em Python e Django",
       "description": "Realizado no disciplina da faculdade, apenas para o aprendizado de crud no django",
-      "link_github": "https://github.com/victorborges97/Projeto-Web-2---Django-Blog",
-      "link_preview": "https://blog-ney.herokuapp.com/",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/Projeto-Web-2---Django-Blog",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "https://blog-ney.herokuapp.com/",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
       "private": false,
-      "img": "/assets/blog.png"
+      "img": [{ "src": "/assets/blog.png" }]
     },
     {
       "id": 4,
       "title": "Alura Quiz",
       "description": "Projeto realizado na Imerção ReactJS e NextJS da Alura",
-      "link_github": "https://github.com/victorborges97/aluraquiz-nanatsu",
-      "link_preview": "https://aluraquiz-nanatsu.victorborges97.vercel.app/",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/aluraquiz-nanatsu",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "https://aluraquiz-nanatsu.victorborges97.vercel.app/",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
       "private": false,
-      "img": ""
+      "img": [{ "src": "" }]
     },
     {
       "id": 5,
       "title": "App Todo em React Native",
       "description": "Projeto realizado para colocar em pratica o sqlite do mobile",
-      "link_github": "https://github.com/victorborges97/app-todo",
-      "link_preview": "",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/app-todo",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
       "private": false,
-      "img": ""
+      "img": [{ "src": "" }]
     },
     {
       "id": 6,
       "title": "APP e Site para semana do NLW da Rocketseat",
       "description": "Proffy - O projeto surgiu com a missão de trazer uma homenagem aos educadores do Brasil, através de uma plataforma que conecta alunos e professores de diversas matérias.",
-      "link_github": "https://github.com/victorborges97/NLW2-2020",
-      "link_preview": "https://proffy-borges.vercel.app/",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/NLW2-2020",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "https://proffy-borges.vercel.app/",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
       "private": false,
-      "img": "https://raw.githubusercontent.com/victorborges97/NLW2-2020/master/.github/gif-nlw-web.gif"
+      "img": [
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/NLW2-2020/master/.github/gif-nlw-web.gif"
+        }
+      ]
     },
     {
       "id": 7,
       "title": "Site em HTML, CSS e Javascript",
       "description": "Projeto realizado na faculdade para aprender HTML, CSS e Javascript",
-      "link_github": "https://github.com/victorborges97/barrigudo",
-      "link_preview": "https://victorborges97.github.io/barrigudo/pedido.html",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/barrigudo",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "https://victorborges97.github.io/barrigudo/pedido.html",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
       "private": false,
-      "img": ""
+      "img": [{ "src": "" }]
     }
   ]
 }
