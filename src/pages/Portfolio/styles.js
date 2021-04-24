@@ -101,5 +101,6 @@ Projet.FaExternalLinkAlt = styled(FaExternalLinkAlt).attrs((props) => ({
   size: 15
 }))`
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
   cursor: pointer;
 `;
