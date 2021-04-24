@@ -15,7 +15,9 @@
         }
       ],
       "private": true,
-      "img": [{ "src": "" }]
+      "img": [
+        { "src": "" }
+      ]
     },
     {
       "id": 1,
@@ -53,7 +55,9 @@
         }
       ],
       "private": false,
-      "img": [{ "src": "" }]
+      "img": [
+        { "src": "" }
+      ]
     },
     {
       "id": 3,
@@ -70,7 +74,10 @@
         }
       ],
       "private": false,
-      "img": [{ "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/blog.png" }]
+      "img": [
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/blog.png" },
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/BLOGDONEY2.png" }
+      ]
     },
     {
       "id": 4,
@@ -87,7 +94,10 @@
         }
       ],
       "private": false,
-      "img": [{ "src": "" }]
+      "img": [
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/ALURAQUIZ.png" },
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/ALURAQUIZ2.png" }
+      ]
     },
     {
       "id": 5,
@@ -104,7 +114,9 @@
         }
       ],
       "private": false,
-      "img": [{ "src": "" }]
+      "img": [
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPTODO.png" }
+      ]
     },
     {
       "id": 6,
@@ -122,9 +134,9 @@
       ],
       "private": false,
       "img": [
-        {
-          "src": "https://raw.githubusercontent.com/victorborges97/NLW2-2020/master/.github/gif-nlw-web.gif"
-        }
+        { "src": "https://raw.githubusercontent.com/victorborges97/NLW2-2020/master/.github/gif-nlw-web.gif" },
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NLWPHOTO2.png" },
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NLWPHOTO3.png" }
       ]
     },
     {
@@ -142,7 +154,9 @@
         }
       ],
       "private": false,
-      "img": [{ "src": "" }]
+      "img": [
+        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/SITEHTML.png" }
+      ]
     }
   ]
 }
