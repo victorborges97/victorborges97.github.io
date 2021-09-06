@@ -16,7 +16,12 @@
       ],
       "private": true,
       "img": [
-        { "src": "" }
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPGARNET1.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPGARNET2.png"
+        }
       ]
     },
     {
@@ -35,9 +40,27 @@
       ],
       "private": true,
       "img": [
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/nead.png" },
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEAD2.png" },
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEAD3.png" }
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEAD1.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEAD2.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEAD3.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEW-NEAD1.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEW-NEAD2.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEW-NEAD3.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEW-NEAD4.png"
+        }
       ]
     },
     {
@@ -56,7 +79,15 @@
       ],
       "private": false,
       "img": [
-        { "src": "" }
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/portfolio_1.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/portfolio_2.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/portfolio_3.png"
+        }
       ]
     },
     {
@@ -69,14 +100,18 @@
           "icon": "FaGithub"
         },
         {
-          "link": "https://blog-ney.herokuapp.com/",
+          "link": "",
           "icon": "FaExternalLinkAlt"
         }
       ],
       "private": false,
       "img": [
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/blog.png" },
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/BLOGDONEY2.png" }
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/blog.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/BLOGDONEY2.png"
+        }
       ]
     },
     {
@@ -95,8 +130,12 @@
       ],
       "private": false,
       "img": [
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/ALURAQUIZ.png" },
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/ALURAQUIZ2.png" }
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/ALURAQUIZ.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/ALURAQUIZ2.png"
+        }
       ]
     },
     {
@@ -115,7 +154,9 @@
       ],
       "private": false,
       "img": [
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPTODO.png" }
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPTODO.png"
+        }
       ]
     },
     {
@@ -134,9 +175,15 @@
       ],
       "private": false,
       "img": [
-        { "src": "https://raw.githubusercontent.com/victorborges97/NLW2-2020/master/.github/gif-nlw-web.gif" },
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NLWPHOTO2.png" },
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NLWPHOTO3.png" }
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/NLW2-2020/master/.github/gif-nlw-web.gif"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NLWPHOTO2.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NLWPHOTO3.png"
+        }
       ]
     },
     {
@@ -155,7 +202,9 @@
       ],
       "private": false,
       "img": [
-        { "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/SITEHTML.png" }
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/SITEHTML.png"
+        }
       ]
     }
   ]
