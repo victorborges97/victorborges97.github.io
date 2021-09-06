@@ -1,12 +1,12 @@
 {
   "porjetos": [
     {
-      "id": 0,
-      "title": "Garnet APP",
-      "description": "",
+      "id": 8,
+      "title": "App Minhas Listas em Kotlin Nativo",
+      "description": "Desenvolvindo para aula de desenvolvimento mobile 1.",
       "links": [
         {
-          "link": "https://github.com/victorborges97/garnet-teste",
+          "link": "https://github.com/victorborges97/minhas-listas-kotlin-android",
           "icon": "FaGithub"
         },
         {
@@ -17,10 +17,37 @@
       "private": true,
       "img": [
         {
-          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPGARNET1.png"
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPMINHASLISTAS1.png"
         },
         {
-          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPGARNET2.png"
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPMINHASLISTAS2.png"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "AppQuiz",
+      "description": "Desenvolvindo para um processo seletivo.",
+      "links": [
+        {
+          "link": "",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
+      "private": true,
+      "img": [
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APP-QUIZ1.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APP-QUIZ2.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APP-QUIZ3.png"
         }
       ]
     },
@@ -60,6 +87,30 @@
         },
         {
           "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/NEW-NEAD4.png"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "title": "Garnet APP",
+      "description": "",
+      "links": [
+        {
+          "link": "https://github.com/victorborges97/garnet-teste",
+          "icon": "FaGithub"
+        },
+        {
+          "link": "",
+          "icon": "FaExternalLinkAlt"
+        }
+      ],
+      "private": true,
+      "img": [
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPGARNET1.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/victorborges97/victorborges97.github.io/master/src/assets/projets/APPGARNET2.png"
         }
       ]
     },
